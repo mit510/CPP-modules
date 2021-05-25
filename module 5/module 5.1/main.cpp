@@ -24,7 +24,7 @@ class DISTANCE
         void normalizeDistance()
         {
             feet=feet+inch/12;
-            inch%=12;
+            inch=feet*12;
         }
 
         void display()
